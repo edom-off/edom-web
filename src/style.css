@@ -7,8 +7,8 @@
 }
 
 :root {
-  --color-bg: #f5f4f0;
-  --color-text: #1a1a18;
+  --color-bg: #1a1a18;
+  --color-text: #f5f4f0;
   --color-muted: #8a8880;
   --color-accent: #1a1a18;
   --font-serif: 'Cormorant Garamond', Georgia, serif;
@@ -50,10 +50,10 @@ body {
 }
 
 .header__title {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: clamp(3rem, 8vw, 7rem);
-  font-weight: 300;
-  letter-spacing: 0.35em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
   text-align: center;
   line-height: 1;
 }
@@ -83,7 +83,7 @@ body {
 /* ─── Hero ──────────────────────────────────────────────────── */
 
 .hero__tagline {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: clamp(1.8rem, 4vw, 2.8rem);
   font-style: italic;
   font-weight: 300;
@@ -110,7 +110,7 @@ body {
 }
 
 .section__body {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.2rem;
   line-height: 1.8;
   font-weight: 300;
@@ -127,7 +127,7 @@ body {
 }
 
 .collections__item {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.1rem;
   color: var(--color-text);
   padding-bottom: 0.6rem;

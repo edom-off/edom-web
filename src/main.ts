@@ -13,12 +13,12 @@ interface BrandInfo {
 const brand: BrandInfo = {
   name: 'EDOM',
   tagline: 'Silence Has a Shape.',
-  founded: 'Est. 2024',
+  founded: 'Est. 2025',
   origin: 'Paris · Tokyo · New York',
   philosophy:
     'We believe that true elegance requires no explanation. Each piece is conceived in stillness — crafted for those who need nothing more.',
   collections: ['Void — AW 2025', 'Pale Form — SS 2025', 'Archive — Ongoing'],
-  contact: 'studio@edom.world',
+  contact: 'aaa@aaa.aaa',
 }
 
 const app = document.querySelector<HTMLDivElement>('#app')!
