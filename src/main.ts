@@ -17,7 +17,7 @@ const brand: BrandInfo = {
   origin: 'Paris · Tokyo · New York',
   philosophy:
     'We believe that true elegance requires no explanation. Each piece is conceived in stillness — crafted for those who need nothing more.',
-  collections: ['Void — AW 2025', 'Pale Form — SS 2025', 'Archive — Ongoing'],
+  collections: ['MODE', 'LOWW NT'],
   contact: 'aaa@aaa.aaa',
 }
 
@@ -41,7 +41,7 @@ app.innerHTML = `
     </section>
 
     <section class="section collections">
-      <h2 class="section__label">Collections</h2>
+      <h2 class="section__label">MEMBERS</h2>
       <ul class="collections__list">
         ${brand.collections.map(c => `<li class="collections__item">${c}</li>`).join('')}
       </ul>
